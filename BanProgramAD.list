@@ -2,8 +2,8 @@
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
 
 # 163
-DOMAIN-SUFFIX,telghub.com
-DOMAIN-SUFFIX,t66y.com
+DOMAIN-KEYWORD,telghub
+DOMAIN-KEYWORD,t66y
 DOMAIN-SUFFIX,a.youdao.com
 DOMAIN-SUFFIX,adgeo.corp.163.com
 DOMAIN-SUFFIX,analytics.126.net
