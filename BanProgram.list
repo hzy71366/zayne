@@ -1,9 +1,10 @@
-# 色情网站禁用
+# 本碎片只包含常见色情关键字、色情域名。无副作用，放心使用
 
-DOMAIN-KEYWORD,telghub
-DOMAIN-KEYWORD,t66y
-DOMAIN-KEYWORD,tubepornclassic
-DOMAIN-KEYWORD,xhamster
-DOMAIN-KEYWORD,xvideos
-DOMAIN-KEYWORD,pornhub
-DOMAIN-KEYWORD,pornhubpremium
+# 色情网站
+DOMAIN-SUFFIX,telghub.com
+DOMAIN-SUFFIX,t66y.com
+DOMAIN-SUFFIX,tubepornclassic.com
+DOMAIN-SUFFIX,xhamster.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
