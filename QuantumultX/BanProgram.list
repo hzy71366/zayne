@@ -1,8 +1,10 @@
-# 色情网站
-HOST-SUFFIX,telghub.com
-HOST-SUFFIX,t66y.com
-HOST-SUFFIX,tubepornclassic.com
-HOST-SUFFIX,xhamster.com
-HOST-SUFFIX,xvideos.com
-HOST-SUFFIX,pornhub.com
-HOST-SUFFIX,pornhubpremium.com
+# NAME: Advertising
+# AUTHOR: hzy71366
+# REPO: https://github.com/hzy71366/zayne/edit
+HOST-SUFFIX,telghub.com,BanProgram
+HOST-SUFFIX,t66y.com,BanProgram
+HOST-SUFFIX,tubepornclassic.com,BanProgram
+HOST-SUFFIX,xhamster.com,BanProgram
+HOST-SUFFIX,xvideos.com,BanProgram
+HOST-SUFFIX,pornhub.com,BanProgram
+HOST-SUFFIX,pornhubpremium.com,BanProgram
