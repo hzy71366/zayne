@@ -13,5 +13,5 @@ DOMAIN-KEYWORD,baidu
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
 
-# 360
-DOMAIN-SUFFIX,360.com
+# ibroadlink
+DOMAIN-SUFFIX,ibroadlink.com
