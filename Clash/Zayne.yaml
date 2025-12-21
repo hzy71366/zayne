@@ -237,9 +237,6 @@ proxy-groups:
     proxies:
       - 🌍 国外代理
       - DIRECT
-    use:
-      - 机场1
-      - 机场2
 
   - name: 手动选择1
     type: select
