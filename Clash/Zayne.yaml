@@ -1,5 +1,3 @@
-# OpenClash 配置（ZayneRules 基础 + OpenAI 优化）
-
 mixed-port: 7890
 allow-lan: true
 bind-address: "*"
@@ -7,7 +5,6 @@ mode: rule
 log-level: info
 ipv6: true
 external-controller: 127.0.0.1:9090
-secret: ""
 
 profile:
   store-selected: true
@@ -15,7 +12,6 @@ profile:
 
 sniffer:
   enable: true
-  parse-pure-ip: true
 
 tun:
   enable: true
@@ -25,7 +21,6 @@ tun:
 
 dns:
   enable: true
-  listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   nameserver:
@@ -34,31 +29,6 @@ dns:
   fallback:
     - https://1.1.1.1/dns-query
     - https://8.8.8.8/dns-query
-  fallback-filter:
-    geoip: true
-    ipcidr:
-      - 240.0.0.0/4
-
-proxy-providers:
-  机场1:
-    type: http
-    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Fdrfytjmjhggnrgergergergerg6555.saojc.xyz%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dd8542b95b8a6921e35e9c62cb7869cc6&insert=false&emoji=true&new_name=true"
-    path: ./providers/airport1.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 300
-
-  机场2:
-    type: http
-    url: "https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Fqaq.atami.top%2Fbilibili%2Ffbcfcfa5783699cf4ebf8873f75c5aa6&insert=false&emoji=true&new_name=true"
-    path: ./providers/airport2.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 300
 
 proxy-groups:
   - name: 🌍 国外代理
