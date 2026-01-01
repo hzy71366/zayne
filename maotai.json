@@ -1,0 +1,46 @@
+{
+  "sites": [
+    {
+      "key": "mtzy",
+      "name": "茅台资源🍷",
+      "type": 3,
+      "api": "csp_XPathMac",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "主页url": "https://mtzy.me/",
+        "分类url": "https://mtzy.me/vodshow/{cateId}--------{catePg}---.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#纪录片$33#短剧$36",
+        "数组": "<div class=\"module-item-pic\">&&</div>",
+        "图片": "data-src=\"&&\"",
+        "标题": "title=\"&&\"",
+        "副标题": "<div class=\"module-item-text\">&&</div>",
+        "链接": "href=\"&&\"",
+        "搜索url": "https://mtzy.me/vodsearch/{wd}----------1---.html",
+        "播放数组": "<div class=\"module-play-list\">&&</div>",
+        "播放列表": "<a&&</a>",
+        "播放标题": ">&&</a>",
+        "播放链接": "href=\"&&\"",
+        "嗅探词": ".m3u8#.mp4#myqqdd.com#.flv"
+      }
+    }
+  ],
+  "parses": [
+    {
+      "name": "茅台主解析",
+      "type": 0,
+      "url": "https://mtjiexi.cc:966/?url="
+    },
+    {
+      "name": "茅台备解析",
+      "type": 0,
+      "url": "https://maotaijiexi.com:669/?url="
+    },
+    {
+      "name": "通用备用",
+      "type": 1,
+      "url": "https://jx.aidouer.net/?url="
+    }
+  ]
+}
