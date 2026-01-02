@@ -1,0 +1,77 @@
+{
+  "sites": [
+    {
+      "key": "drpy_js_jable",
+      "name": "Jable.TV (高清無碼)",
+      "type": 3,
+      "api": "drpy_js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/Jable.js"
+    },
+    {
+      "key": "drpy_js_missav",
+      "name": "MissAV (高清JAV)",
+      "type": 3,
+      "api": "drpy_js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/MissAV.js"
+    },
+    {
+      "key": "drpy_js_motv",
+      "name": "MOTV (全中文字幕)",
+      "type": 3,
+      "api": "drpy_js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/MOTV.js"
+    },
+    {
+      "key": "drpy_js_njav",
+      "name": "nJAV.TV (高清合集)",
+      "type": 3,
+      "api": "drpy_js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/njav.js"
+    }
+  ],
+  "parses": [
+    {
+      "name": "内置Web解析",
+      "type": 1,
+      "url": "Web"
+    },
+    {
+      "name": "通用并发解析",
+      "type": 0,
+      "url": "https://json.pw.parse.xmf1024.com/?url="
+    },
+    {
+      "name": "备用解析1",
+      "type": 0,
+      "url": "https://jx.aomeicd.top/?url="
+    },
+    {
+      "name": "备用解析2",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    }
+  ],
+  "rules": [
+    {
+      "name": "全局广告过滤",
+      "hosts": ["*"],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:.*?,.*?(ads|advertisement|vip)",
+        "vip.ffzy-play.com",
+        "vip.ffzy-online.com"
+      ]
+    }
+  ]
+}
