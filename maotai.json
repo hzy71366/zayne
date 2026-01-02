@@ -48,4 +48,4 @@
   "rules": [
     {"name": "磁力广告过滤", "hosts": ["vip.ffzy-play.com", "vip.ffzy-online.com"], "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:3.933333", "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1.200000"]}
   ]
-｝
+}
