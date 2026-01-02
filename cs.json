@@ -1,0 +1,89 @@
+{
+  "sites": [
+    {
+      "key": "jable_full",
+      "name": "Jable.TV (高清無碼)",
+      "type": 3,
+      "api": "csp_Jable",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playUrl": "",
+      "categories": [
+        "最近更新","全新上市","熱門影片","中文字幕","無碼","制服誘惑","絲襪美腿",
+        "直接開啪","多P群交","主奴調教","男友視角","凌辱快感","盜攝偷拍","角色劇情"
+      ]
+    },
+    {
+      "key": "missav_full",
+      "name": "MissAV (高清JAV)",
+      "type": 3,
+      "api": "csp_Miss",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playUrl": "",
+      "categories": [
+        "New Releases","Recent update","Uncensored","Creampie","Big Breasts",
+        "Mature Woman","Random","Subtitle"
+      ]
+    },
+    {
+      "key": "motv_full",
+      "name": "MOTV (全中文字幕)",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playUrl": "",
+      "categories": [
+        "HD日本","HD歐美","日本有碼","日本無碼","歐美风情","港女系列",
+        "國產原創","動畫","水果AV","色情情燴","經典四級","鹹濕電台"
+      ]
+    },
+    {
+      "key": "njav_full",
+      "name": "nJAV.TV (高清合集)",
+      "type": 3,
+      "api": "csp_Njav",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playUrl": "",
+      "categories": [
+        "Recently Updated","Most Viewed","Uncensored","Chinese Subtitle",
+        "JAV HD","Amateur","Studio"
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "内置Web解析",
+      "type": 1,
+      "url": "Web"
+    },
+    {
+      "name": "通用并发解析",
+      "type": 0,
+      "url": "https://json.pw.parse.xmf1024.com/?url="
+    },
+    {
+      "name": "备用解析1",
+      "type": 0,
+      "url": "https://jx.aomeicd.top/?url="
+    },
+    {
+      "name": "备用解析2",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    }
+  ],
+  "rules": [
+    {
+      "name": "广告过滤",
+      "hosts": ["*"],
+      "regex": ["#EXT-X-DISCONTINUITY","#EXTINF:.*?,.*?(ads|advertisement)"]
+    }
+  ]
+}
