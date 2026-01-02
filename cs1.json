@@ -1,0 +1,42 @@
+检查以下json能不能用。
+
+{
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/shichuanenhui/TvBox/main/jar/jav.jar;md5;8d592f6d2d1434ea5ec8506b56265485",
+  "wallpaper": "https://gao.chuqiuyu.workers.dev",
+  "sites": [
+    {
+      "key": "Eighteen",
+      "name": "🔞18Av (CSP)",
+      "type": 3,
+      "api": "csp_Eighteen",
+      "jar": "https://ghproxy.net/https://raw.githubusercontent.com/shichuanenhui/TvBox/main/jar/custom_spider.jar;md5;0c65550a61db9b03f6feb40aee1f9b07",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Jable",
+      "name": "🔞JableTV (CSP)",
+      "type": 3,
+      "api": "csp_Jable",
+      "jar": "https://ghproxy.net/https://raw.githubusercontent.com/shichuanenhui/TvBox/main/jar/custom_spider.jar;md5;0c65550a61db9b03f6feb40aee1f9b07",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Miss",
+      "name": "🔞MissAv (CSP)",
+      "type": 3,
+      "api": "csp_Miss",
+      "jar": "https://ghproxy.net/https://raw.githubusercontent.com/shichuanenhui/TvBox/main/jar/custom_spider.jar;md5;0c65550a61db9b03f6feb40aee1f9b07",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {"name": "聚合解析", "type": 3, "url": "Demo"},
+    {"name": "Web解析", "type": 1, "url": "https://jx.jsonplayer.com/player/?url="}
+  ]
+}
