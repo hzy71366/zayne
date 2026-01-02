@@ -1,0 +1,47 @@
+{
+  "sites": [
+    {
+      "key": "mtzy_pro",
+      "name": "🌟 茅台资源 (全能/短剧/体育)",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "class_name": "电影&连续剧&综艺片&动漫&短剧大全&体育赛事",
+        "class_url": "1&2&3&4&37&36"
+      }
+    },
+    {
+      "key": "jszy_speed",
+      "name": "🚀 极速资源 (更新最快/秒播)",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "dbzy_hd",
+      "name": "🎬 豆瓣资源 (高清/蓝光专区)",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "snzy_stable",
+      "name": "📡 索尼资源 (老牌/稳定备用)",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {"name": "通用解析", "type": 0, "url": "https://mtjiexi.cc:966/?url="}
+  ]
+}
