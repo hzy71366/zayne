@@ -8,14 +8,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "连续剧",
-        "综艺片",
-        "动漫",
-        "短剧大全",
-        "体育赛事",
-        "伦理片"
-      ]
+      "ext": {
+        "class_name": "电影片&连续剧&综艺片&动漫&短剧大全&体育赛事",
+        "class_url": "1&2&3&4&37&36"
+      }
     },
     {
       "key": "jszy_speed",
@@ -24,7 +20,7 @@
       "api": "https://jszyapi.com/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 1
     },
     {
       "key": "dbzy_hd",
@@ -33,15 +29,7 @@
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "连续剧",
-        "综艺片",
-        "动漫",
-        "短剧大全",
-        "体育赛事"
-      ]
+      "filterable": 1
     },
     {
       "key": "snzy_stable",
@@ -50,15 +38,7 @@
       "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫",
-        "短剧",
-        "体育赛事"
-      ]
+      "filterable": 1
     }
   ],
   "parses": [
