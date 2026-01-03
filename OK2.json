@@ -7,11 +7,7 @@
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "class_name": "连续剧&综艺片&动漫&短剧大全&体育赛事",
-        "class_url": "2&3&4&37&36"
-      }
+      "filterable": 1
     },
     {
       "key": "jszy_speed",
@@ -42,6 +38,10 @@
     }
   ],
   "parses": [
-    {"name": "通用解析", "type": 0, "url": "https://mtjiexi.cc:966/?url="}
+    {
+      "name": "通用解析",
+      "type": 0,
+      "url": "https://mtjiexi.cc:966/?url="
+    }
   ]
 }
