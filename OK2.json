@@ -25,16 +25,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "连续剧",
-        "电影片",
-        "动漫片",
-        "综艺片",
-        "短剧",
-        "伦理片",
-        "体育赛事",
-        "预告片"
-      ]
     },
     {
       "key": "dbzy_hd",
