@@ -55,15 +55,6 @@
       "filterable": 1
     },
     {
-      "key": "ikunzy_vod",
-      "name": "💿 爱坤资源 (高清)",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "bfzy_api",
       "name": "⚡ 暴风影视",
       "type": 1,
