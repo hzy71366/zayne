@@ -421,7 +421,7 @@
       "api": "https://www.caoliuzy.com/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 1
     },
     {
       "key": "sexnguon_vod",
