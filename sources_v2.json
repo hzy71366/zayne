@@ -1,236 +1,256 @@
 {
-  "sites": [
-    {
-      "key": "xc_master",
-      "name": "🎯 南风精选合集",
-      "type": 1,
-      "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "star_fmbox",
-      "name": "🌀 星辰影视合集",
-      "type": 1,
-      "api": "https://fmbox.cc/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "liucn_box",
-      "name": "📦 老刘备影视仓",
-      "type": 1,
-      "api": "https://raw.liucn.cc/box/m.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "hollo_single",
-      "name": "✨ 拾光精选",
-      "type": 1,
-      "api": "https://4708.kstore.space/omg/hollo.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "mtzy_pro",
-      "name": "🌟 茅台资源",
-      "type": 1,
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "jszy_speed",
-      "name": "🚀 极速资源",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "dbzy_hd",
-      "name": "🎬 豆瓣资源",
-      "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "snzy_stable",
-      "name": "📡 索尼资源",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "yingju_zy",
-      "name": "🎬 影剧资源网",
-      "type": 1,
-      "api": "https://caiji.yingjuzy.cn/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "ruyi_zy",
-      "name": "🎞 如意资源网",
-      "type": 1,
-      "api": "https://caiji.ruyizy.cc/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "redbull_zy",
-      "name": "🐂 红牛云播",
-      "type": 1,
-      "api": "https://caiji.redbullzy.cc/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "guangsu_zy",
-      "name": "⚡ 光速资源站",
-      "type": 1,
-      "api": "https://caiji.guangsuzy.cc/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "jinying_vod",
-      "name": "🦅 金鹰资源站",
-      "type": 1,
-      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "modu_dongman",
-      "name": "🐉 魔都动漫资源",
-      "type": 1,
-      "api": "https://caiji.modujx.cc/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "subocj_vod",
-      "name": "⚡ 速播资源",
-      "type": 1,
-      "api": "https://subocj.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "hhzy_vod",
-      "name": "💎 豪华资源网",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "apiyhzy",
-      "name": "🌸 樱花资源",
-      "type": 1,
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "zuise_vod",
-      "name": "🔥 最色资源网",
-      "type": 1,
-      "api": "https://api.zuiseapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "maoyanapi_vod",
-      "name": "🎥 猫眼影视",
-      "type": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "douapi_cc",
-      "name": "🍿 豆豆影视 (18+可用)",
-      "type": 1,
-      "api": "https://api.douapi.cc/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "360zy",
-      "name": "📺 360影视",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "ikzy_api",
-      "name": "🎬 爱酷影视",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "bfzy_api",
-      "name": "⚡ 暴风影视",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "yunbao_zy",
-      "name": "🐆 云豹影视",
-      "type": 1,
-      "api": "https://scxytz.cn/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "laoya_zy",
-      "name": "🦆 老鸭资源",
-      "type": 1,
-      "api": "http://xujia2018.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    }
-  ],
-  "parses": [
-    {
-      "name": "通用解析",
-      "type": 0,
-      "url": "https://mtjiexi.cc:966/?url="
-    }
-  ]
+  "original_json": {
+    "sites": [
+      {
+        "key": "xc_master",
+        "name": "🎯 南风精选合集",
+        "type": 1,
+        "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "star_fmbox",
+        "name": "🌀 星辰影视合集",
+        "type": 1,
+        "api": "https://fmbox.cc/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "liucn_box",
+        "name": "📦 老刘备影视仓",
+        "type": 1,
+        "api": "https://raw.liucn.cc/box/m.json",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "hollo_single",
+        "name": "✨ 拾光精选",
+        "type": 1,
+        "api": "https://4708.kstore.space/omg/hollo.json",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "mtzy_pro",
+        "name": "🌟 茅台资源",
+        "type": 1,
+        "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "jszy_speed",
+        "name": "🚀 极速资源",
+        "type": 1,
+        "api": "https://jszyapi.com/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "dbzy_hd",
+        "name": "🎬 豆瓣资源",
+        "type": 1,
+        "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "snzy_stable",
+        "name": "📡 索尼资源",
+        "type": 1,
+        "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "yingju_zy",
+        "name": "🎬 影剧资源网",
+        "type": 1,
+        "api": "https://caiji.yingjuzy.cn/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "ruyi_zy",
+        "name": "🎞 如意资源网",
+        "type": 1,
+        "api": "https://caiji.ruyizy.cc/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "redbull_zy",
+        "name": "🐂 红牛云播",
+        "type": 1,
+        "api": "https://caiji.redbullzy.cc/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "guangsu_zy",
+        "name": "⚡ 光速资源站",
+        "type": 1,
+        "api": "https://caiji.guangsuzy.cc/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "jinying_vod",
+        "name": "🦅 金鹰资源站",
+        "type": 1,
+        "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "modu_dongman",
+        "name": "🐉 魔都动漫资源",
+        "type": 1,
+        "api": "https://caiji.modujx.cc/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "subocj_vod",
+        "name": "⚡ 速播资源",
+        "type": 1,
+        "api": "https://subocj.com/api.php/provide/vod",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "hhzy_vod",
+        "name": "💎 豪华资源网",
+        "type": 1,
+        "api": "https://hhzyapi.com/api.php/provide/vod",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "apiyhzy",
+        "name": "🌸 樱花资源",
+        "type": 1,
+        "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "zuise_vod",
+        "name": "🔥 最色资源网",
+        "type": 1,
+        "api": "https://api.zuiseapi.com/api.php/provide/vod/?ac=list",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "maoyanapi_vod",
+        "name": "🎥 猫眼影视",
+        "type": 1,
+        "api": "https://api.maoyanapi.top/api.php/provide/vod",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "lbapi_vod",
+        "name": "🌟 乐播资源 (稳定高清)",
+        "type": 1,
+        "api": "https://lbapi9.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "tiankong_vod",
+        "name": "☁️ 天空资源 (更新快)",
+        "type": 1,
+        "api": "https://api.tiankongapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "wujin_vod",
+        "name": "🔥 无尽资源 (高清稳定)",
+        "type": 1,
+        "api": "https://wujinzy.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "haiwaikan_vod",
+        "name": "🌍 海外看 (需代理)",
+        "type": 1,
+        "api": "https://haiwaikan.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "caoliu_vod",
+        "name": "🔞 草榴资源 (adult)",
+        "type": 1,
+        "api": "https://www.caoliuzy.com/api.php/provide/vod/at/json/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "sexnguon_vod",
+        "name": "🔞 色南国 (adult)",
+        "type": 1,
+        "api": "https://api.sexnguon.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "ikunzy_vod",
+        "name": "💿 爱坤资源 (高清)",
+        "type": 1,
+        "api": "https://ikunzyapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
+      {
+        "key": "feisu_vod",
+        "name": "🚀 飞速资源 (稳定)",
+        "type": 1,
+        "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      }
+    ],
+    "parses": [
+      {
+        "name": "通用解析",
+        "type": 0,
+        "url": "https://mtjiexi.cc:966/?url="
+      }
+    ]
+  }
 }
