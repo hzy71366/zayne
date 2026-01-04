@@ -275,6 +275,78 @@
       "quickSearch": 1,
       "filterable": 1
     },
+        {
+      "key": "js_mirror",
+      "name": "📀 千帆影视合集",
+      "type": 1,
+      "api": "https://raw.gitmirror.com/yw88075/tvbox/main/dr/js.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "qixing_dc",
+      "name": "🔮 七星精选仓",
+      "type": 1,
+      "api": "https://qixing.myhkw.com/DC.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xmbjm_ck",
+      "name": "🏠 拾光趣乐屋 CK",
+      "type": 1,
+      "api": "https://4708.kstore.space/ck.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xmbjm_gh",
+      "name": "🏠 拾光趣乐屋 GH",
+      "type": 1,
+      "api": "https://xmbjm.github.io/ck.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "mpanso_xiaomi",
+      "name": "📺 小米影视",
+      "type": 1,
+      "api": "https://www.mpanso.com/小米/DEMO.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "shhentu_monster",
+      "name": "👾 小屋影视 Monster",
+      "type": 1,
+      "api": "https://git.acwing.com/shhentu/lzxw/-/raw/main/Monster.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "maoystv_share",
+      "name": "📡 分享影视合集",
+      "type": 1,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/maoystv/6/main/000.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "my_tan_tan",
+      "name": "🔍 影探影视",
+      "type": 1,
+      "api": "https://raw.githubusercontent.com/vbskycn/tvbox/a244f6f5c08565a9a0e319d6a3cc2e919d05d893/MY探探.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "caoliu_vod",
       "name": "🔞 草榴资源",
