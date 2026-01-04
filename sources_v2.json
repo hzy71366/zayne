@@ -10,7 +10,7 @@
       "filterable": 1
     },
     {
-      "key": "fmbox_all",
+      "key": "star_fmbox",
       "name": "🌀 星辰影视合集",
       "type": 1,
       "api": "https://fmbox.cc/",
@@ -29,7 +29,7 @@
     },
     {
       "key": "hollo_single",
-      "name": "✨ 拾光精选单仓",
+      "name": "✨ 拾光精选",
       "type": 1,
       "api": "https://4708.kstore.space/omg/hollo.json",
       "searchable": 1,
@@ -68,6 +68,42 @@
       "name": "📡 索尼资源",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yingju_zy",
+      "name": "🎬 影剧资源网",
+      "type": 1,
+      "api": "https://caiji.yingjuzy.cn/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ruyi_zy",
+      "name": "🎞 如意资源网",
+      "type": 1,
+      "api": "https://caiji.ruyizy.cc/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "redbull_zy",
+      "name": "🐂 红牛云播",
+      "type": 1,
+      "api": "https://caiji.redbullzy.cc/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "guangsu_zy",
+      "name": "⚡ 光速资源站",
+      "type": 1,
+      "api": "https://caiji.guangsuzy.cc/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
