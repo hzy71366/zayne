@@ -347,6 +347,105 @@
       "quickSearch": 1,
       "filterable": 1
     },
+        {
+      "key": "360zy",
+      "name": "📺 360影视",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ikzy_api",
+      "name": "🎬 爱酷影视",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "bfzy_api",
+      "name": "⚡ 暴风影视",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yunbao_zy",
+      "name": "🐆 云豹影视",
+      "type": 1,
+      "api": "https://scxytz.cn/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "laoya_zy",
+      "name": "🦆 老鸭资源",
+      "type": 1,
+      "api": "http://xujia2018.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jmzy_api",
+      "name": "🔥 JM资源站",
+      "type": 1,
+      "api": "https://jmzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "spdy_api",
+      "name": "🎥 极速点影",
+      "type": 1,
+      "api": "https://spdyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "qqzy_api",
+      "name": "🎞 QQ影视",
+      "type": 1,
+      "api": "https://qqzyapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "huashu_api",
+      "name": "🌸 花树影视",
+      "type": 1,
+      "api": "https://huashuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "baile_api",
+      "name": "🎬 百乐影视",
+      "type": 1,
+      "api": "https://bailezyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zhilian_api",
+      "name": "📽 智联影视",
+      "type": 1,
+      "api": "https://zhilianapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "caoliu_vod",
       "name": "🔞 草榴资源",
