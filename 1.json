@@ -1,0 +1,84 @@
+{
+  "sites": [
+    {
+      "key": "mtzy_pro",
+      "name": "🌟 茅台资源",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["伦理片"]
+    },
+    {
+      "key": "jszy_speed",
+      "name": "🚀 极速资源",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "dbzy_hd",
+      "name": "🎬 豆瓣资源",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "snzy_stable",
+      "name": "📡 索尼资源",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "maoyanapi_vod",
+      "name": "🎥 猫眼影视",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "lbapi_vod",
+      "name": "🌟 乐播资源 (稳定高清)",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ikunzy_vod",
+      "name": "💿 爱坤资源 (高清)",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "bfzy_api",
+      "name": "⚡ 暴风影视",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "通用解析",
+      "type": 0,
+      "url": "https://mtjiexi.cc:966/?url="
+    }
+  ]
+}
