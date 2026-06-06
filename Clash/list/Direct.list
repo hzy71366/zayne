@@ -19,6 +19,12 @@ DOMAIN-SUFFIX,ys7.com
 DOMAIN-SUFFIX,broadlink.com
 DOMAIN-SUFFIX,ibroadlink.com
 
+# eWeLink
+DOMAIN-SUFFIX,coolkit.cn
+DOMAIN-SUFFIX,coolkit.cc
+DOMAIN-SUFFIX,ewelink.cc
+DOMAIN-SUFFIX,ewelink.info
+
 # Tmall Genie
 DOMAIN-SUFFIX,tmallgenie.com
 DOMAIN-SUFFIX,aligenie.com
