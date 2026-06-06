@@ -1,21 +1,41 @@
 payload:
-# Grok 核心域名
-- DOMAIN-SUFFIX,grok.com
-- DOMAIN-SUFFIX,x.ai
-- DOMAIN,grok.x.ai
+  # ================== Grok / xAI ==================
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,api.x.ai
+  - DOMAIN,grok.x.ai
+  - DOMAIN-SUFFIX,console.grok.com
+  - DOMAIN-SUFFIX,console.x.ai
+  - DOMAIN-SUFFIX,docs.x.ai
 
-# X (Twitter) 域名
-- DOMAIN-SUFFIX,x.com
-- DOMAIN-SUFFIX,twitter.com
-- DOMAIN-SUFFIX,t.co
-- DOMAIN-SUFFIX,twimg.com
-- DOMAIN-SUFFIX,twttr.com
-- DOMAIN-SUFFIX,vine.co
-- DOMAIN-SUFFIX,periscope.tv
-- DOMAIN-SUFFIX,pscp.tv
-- DOMAIN,api.x.com
-- DOMAIN,api.twitter.com
-- DOMAIN,abs.twimg.com
-- DOMAIN,pbs.twimg.com
-- DOMAIN,video.twimg.com
-- DOMAIN,ads-twitter.com
+  # ================== X / Twitter ==================
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twttr.com
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,pscp.tv
+
+  # API & 核心服务
+  - DOMAIN,api.x.com
+  - DOMAIN,api.twitter.com
+  - DOMAIN,upload.x.com
+  - DOMAIN,s.x.com
+  - DOMAIN,upload.twitter.com
+
+  # 媒体 & CDN
+  - DOMAIN,abs.twimg.com
+  - DOMAIN,pbs.twimg.com
+  - DOMAIN,video.twimg.com
+  - DOMAIN,ton.twitter.com
+  - DOMAIN,cdn.syndication.twimg.com
+  - DOMAIN,ads-twitter.com
+  - DOMAIN,imagedelivery.net   # 部分 X 图片托管
+  - DOMAIN,cdn.twitter.com
+
+  # 其他常用子域
+  - DOMAIN-SUFFIX,card.twitter.com
+  - DOMAIN,mobile.twitter.com
+  - DOMAIN,tweetdeck.twitter.com
