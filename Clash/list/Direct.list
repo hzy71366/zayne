@@ -1,5 +1,52 @@
-# 直连补充列表(国内域名不解析时，防止走代理使用)
+# =========================
+# Smart Home
+# =========================
 
-# MyList
-# ibroadlink
+# Xiaomi / Mijia
+DOMAIN-SUFFIX,mijia.com
+DOMAIN-SUFFIX,miot-spec.com
+DOMAIN-SUFFIX,io.mi.com
+
+# EZVIZ
+DOMAIN-SUFFIX,ezviz.com
+DOMAIN-SUFFIX,ys7.com
+
+# BroadLink
+DOMAIN-SUFFIX,broadlink.com
 DOMAIN-SUFFIX,ibroadlink.com
+
+# Tmall Genie
+DOMAIN-SUFFIX,tmallgenie.com
+DOMAIN-SUFFIX,aligenie.com
+
+
+# =========================
+# China AI
+# =========================
+
+# DeepSeek
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseek.cn
+
+# Kimi
+DOMAIN-SUFFIX,moonshot.cn
+
+# Doubao
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,doubao.cn
+
+# Zhipu
+DOMAIN-SUFFIX,zhipuai.cn
+DOMAIN-SUFFIX,bigmodel.cn
+
+# MiniMax
+DOMAIN-SUFFIX,minimax.chat
+
+
+# =========================
+# ByteDance Cloud
+# =========================
+
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,volccdn.com
