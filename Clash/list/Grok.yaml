@@ -1,0 +1,25 @@
+payload:
+  # Grok 核心域名
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN,grok.x.ai
+  
+  # X (Twitter) 基础域名 (Grok 运行依赖)
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twttr.com
+  
+  # API 与认证相关
+  - DOMAIN,api.x.com
+  - DOMAIN,api.twitter.com
+  - DOMAIN,abs.twimg.com
+  - DOMAIN,pbs.twimg.com
+  - DOMAIN,video.twimg.com
+  - DOMAIN,ads-twitter.com
+  
+  # 媒体与辅助资源
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,pscp.tv
