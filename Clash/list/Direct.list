@@ -1,4 +1,10 @@
 # =========================
+# Self Hosted
+# =========================
+
+DOMAIN,hzy71366.dpdns.org
+
+# =========================
 # Smart Home
 # =========================
 
@@ -50,9 +56,4 @@ DOMAIN-SUFFIX,minimax.chat
 DOMAIN-SUFFIX,volcengine.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volccdn.com
-
-
-# =========================
-# hzy71366
-# =========================
 
