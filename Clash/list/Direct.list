@@ -1,11 +1,8 @@
-# =========================
+# 直连列表
+
 # Self-Hosted
-# =========================
 DOMAIN,hzy71366.dpdns.org
 
-# =========================
-# Smart Home
-# =========================
 # Xiaomi / Mijia
 DOMAIN-SUFFIX,mijia.com
 DOMAIN-SUFFIX,miot-spec.com
@@ -29,9 +26,6 @@ DOMAIN-SUFFIX,ewelink.info
 DOMAIN-SUFFIX,tmallgenie.com
 DOMAIN-SUFFIX,aligenie.com
 
-# =========================
-# China AI
-# =========================
 # DeepSeek
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,deepseek.cn
@@ -50,16 +44,11 @@ DOMAIN-SUFFIX,bigmodel.cn
 # MiniMax
 DOMAIN-SUFFIX,minimax.chat
 
-# =========================
 # ByteDance Cloud
-# =========================
 DOMAIN-SUFFIX,volcengine.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volccdn.com
 
-# =========================
-# Media Resources (影视资源)
-# =========================
 # Jisu Resource (极速资源)
 DOMAIN-SUFFIX,jisuts.com
 DOMAIN-SUFFIX,jszyplay.com
