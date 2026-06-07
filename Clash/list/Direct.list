@@ -49,13 +49,10 @@ DOMAIN-SUFFIX,volcengine.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volccdn.com
 
-# Jisu Resource (极速资源)
+# CMSPlayer
 DOMAIN-SUFFIX,jisuts.com 
 DOMAIN-SUFFIX,jszyapi.com
 DOMAIN-SUFFIX,jisuzyv.com
-DOMAIN-SUFFIX,jisuimage.com
-
-# ikun Resource (ikun资源站)
 DOMAIN-SUFFIX,ikunzy.com
 DOMAIN-SUFFIX,bfikuncdn.com
 DOMAIN-SUFFIX,kkzycdn.com,DIRECT
