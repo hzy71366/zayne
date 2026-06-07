@@ -58,9 +58,8 @@ DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volccdn.com
 
 # =========================
-# Reserved for Future Use
+# Media Resources (影视资源)
 # =========================
-# 留给你后续扩展，比如：
-# # Video / Music
-# # Financial / Payment
-# # Developer Tools
+# Jisu Resource (极速资源)
+DOMAIN-SUFFIX,jisuts.com
+DOMAIN-SUFFIX,jszyplay.com
