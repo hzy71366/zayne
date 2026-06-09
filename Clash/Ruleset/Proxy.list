@@ -2,4 +2,6 @@
 
 # 自定义代理
 DOMAIN-SUFFIX,tikwm.com
+DOMAIN-SUFFIX,cloudconvert.com
+DOMAIN-SUFFIX,mp3cut.net
 DOMAIN-SUFFIX,exchangerate-api.com
