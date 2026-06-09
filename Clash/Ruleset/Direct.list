@@ -3,15 +3,8 @@
 # Self-Hosted
 DOMAIN,hzy71366.dpdns.org
 
-# ByteDance Cloud
-DOMAIN-SUFFIX,volcengine.com
-DOMAIN-SUFFIX,volces.com
-DOMAIN-SUFFIX,volccdn.com
-
-# cloudconvert
+# 自定义直连
 DOMAIN-SUFFIX,cloudconvert.com
-
-# CMSPlayer
 DOMAIN-SUFFIX,jisuts.com
 DOMAIN-SUFFIX,jszyapi.com
 DOMAIN-SUFFIX,jisuzyv.com
