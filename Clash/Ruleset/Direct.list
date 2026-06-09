@@ -11,3 +11,4 @@ IP-CIDR,127.0.0.0/8,no-resolve
 
 # 自定义直连
 DOMAIN-SUFFIX,pc528.net
+DOMAIN,location.watch.okii.com
