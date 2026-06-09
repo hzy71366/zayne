@@ -3,5 +3,11 @@
 # Self-Hosted
 DOMAIN,hzy71366.dpdns.org
 
+# 局域网直连规则
+IP-CIDR,192.168.0.0/16,no-resolve
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,127.0.0.0/8,no-resolve
+
 # 自定义直连
 DOMAIN-SUFFIX,pc528.net
