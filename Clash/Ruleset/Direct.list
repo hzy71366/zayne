@@ -8,6 +8,9 @@ DOMAIN-SUFFIX,volcengine.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volccdn.com
 
+# cloudconvert
+DOMAIN-SUFFIX,cloudconvert.com
+
 # CMSPlayer
 DOMAIN-SUFFIX,jisuts.com
 DOMAIN-SUFFIX,jszyapi.com
