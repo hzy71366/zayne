@@ -49,7 +49,7 @@ dns:
 proxy-providers:
   机场1:
     type: http
-    url: https://liangxin.xyz/api/v1/liangxin?OwO=121b2e875b74f0134724307a6a8252ad
+    url: 
     path: ./providers/airport1.yaml
     interval: 3600
     health-check:
@@ -69,7 +69,7 @@ proxy-providers:
 
   机场3:
     type: http
-    url: https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=23927981c3deed4352d7ff41910fff40
+    url: 
     path: ./providers/airport3.yaml
     interval: 3600
     health-check:
