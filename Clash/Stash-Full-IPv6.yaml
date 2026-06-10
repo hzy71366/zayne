@@ -116,7 +116,7 @@ proxy-groups:
   - 美国自动
   - DIRECT
 
-- name: 🐟 漏网之鱼
+- name: 🐠 漏网之鱼
   type: select
   proxies:
   - 🌍 国外代理
@@ -319,5 +319,5 @@ rules:
 - RULE-SET,ChinaDomain,DIRECT
 - RULE-SET,ChinaCompanyIp,DIRECT
 - GEOIP,CN,DIRECT
-- MATCH,🐟 漏网之鱼
+- MATCH,🐠 漏网之鱼
 proxies: [{auth-key: tskey-auth-kcofNBRPNN11CNTRL-hWov6fE2Qy2EYCSqM1xvx2Jes25sWE5pd, ephemeral: false, hostname: Stash, name: Stash, type: tailscale}]
