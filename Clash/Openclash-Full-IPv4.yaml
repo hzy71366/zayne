@@ -1,0 +1,320 @@
+# OpenClash 配置
+
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 127.0.0.1:9090
+secret: ""
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+sniffer:
+  enable: true
+  parse-pure-ip: true
+
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  fake-ip-filter:
+    - "+.googlevideo.com"
+    - "+.android.clients.google.com"
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - https://223.5.5.5/dns-query
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  proxy-server-nameserver:
+    - 223.5.5.5
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+
+proxy-providers:
+  机场1:
+    type: http
+    url: https://liangxin.xyz/api/v1/liangxin?OwO=121b2e875b74f0134724307a6a8252ad
+    path: ./providers/airport1.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  机场2:
+    type: http
+    url: 
+    path: ./providers/airport2.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  机场3:
+    type: http
+    url: https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=23927981c3deed4352d7ff41910fff40
+    path: ./providers/airport3.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+proxy-groups:
+- name: 🌍 国外代理
+  type: select
+  proxies:
+  - 手动选择
+  - 自动选择
+  - 香港自动
+  - 台湾自动
+  - 日本自动
+  - 狮城自动
+  - 美国自动
+  - DIRECT
+
+- name: 💬 OpenAI
+  type: select
+  proxies:
+  - 🌍 国外代理
+  - 手动选择
+  - 自动选择
+  - 香港自动
+  - 台湾自动
+  - 日本自动
+  - 狮城自动
+  - 美国自动
+  - DIRECT
+
+- name: 📱 TikTok
+  type: select
+  proxies:
+  - 🌍 国外代理
+  - 手动选择
+  - 自动选择
+  - 香港自动
+  - 台湾自动
+  - 日本自动
+  - 狮城自动
+  - 美国自动
+  - DIRECT
+
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🌍 国外代理
+  - DIRECT
+
+- name: 手动选择
+  type: select
+  use: [机场1, 机场2, 机场3]
+  filter: ^(?!.*(剩余|到期|流量|官网|客户端|机场)).*
+
+- name: 自动选择
+  type: url-test
+  use: [机场1, 机场2, 机场3]
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  filter: ^(?!.*(剩余|到期|流量|官网|客户端|机场)).*
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    maximum: 800
+    difference: 120
+
+# --- 自动国家组 (全机场，在 Stash 中隐藏) ---
+- name: 香港自动
+  type: url-test
+  hidden: true
+  filter: (港|HK|Hong)
+  use: [机场1, 机场2, 机场3]
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    maximum: 800
+    difference: 120
+
+- name: 台湾自动
+  type: url-test
+  hidden: true
+  filter: (台|TW|Taiwan)
+  use: [机场1, 机场2, 机场3]
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    maximum: 800
+    difference: 120
+
+- name: 日本自动
+  type: url-test
+  hidden: true
+  filter: (日|JP|Japan)(?!利亚)
+  use: [机场1, 机场2, 机场3]
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    maximum: 800
+    difference: 120
+
+- name: 狮城自动
+  type: url-test
+  hidden: true
+  filter: (新|SG|Singapore|狮城)(?!客户端)
+  use: [机场1, 机场2, 机场3]
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    maximum: 800
+    difference: 120
+
+- name: 美国自动
+  type: url-test
+  hidden: true
+  filter: (美|US|United)
+  use: [机场1, 机场2, 机场3]
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    maximum: 800
+    difference: 120
+
+rule-providers:
+  # --- ACL4SSR 规则集区域 ---
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    interval: 86400
+
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    interval: 86400
+
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    interval: 86400
+
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
+    path: ./ruleset/BanAD.list
+    interval: 86400
+
+  BanEasyPrivacy:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanEasyPrivacy.list
+    path: ./ruleset/BanEasyPrivacy.list
+    interval: 86400
+
+  # --- blackmatrix7 规则集区域 ---
+  OpenAI:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.list
+    path: ./ruleset/OpenAI.list
+    interval: 86400
+
+  TikTok:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok.list
+    path: ./ruleset/TikTok.list
+    interval: 86400
+
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.list
+    path: ./ruleset/Apple.list
+    interval: 86400
+
+  # --- 自定义规则集 ---
+  Direct:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/hzy71366/zayne/main/Clash/Ruleset/Direct.list
+    path: ./ruleset/Direct.list
+    interval: 86400
+
+  Proxy:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/hzy71366/zayne/main/Clash/Ruleset/Proxy.list
+    path: ./ruleset/Proxy.list
+    interval: 86400
+
+  Reject:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/hzy71366/zayne/main/Clash/Ruleset/Reject.list
+    path: ./ruleset/Reject.list
+    interval: 86400
+
+rules: 
+- RULE-SET,BanAD,REJECT
+- RULE-SET,BanEasyPrivacy,REJECT
+- RULE-SET,Reject,REJECT
+- RULE-SET,OpenAI,💬 OpenAI
+- RULE-SET,TikTok,📱 TikTok
+#- RULE-SET,Netflix,🍿 Netflix
+- RULE-SET,Proxy,🌍 国外代理
+- RULE-SET,ProxyGFWlist,🌍 国外代理
+- RULE-SET,Direct,DIRECT
+- RULE-SET,Apple,DIRECT
+- RULE-SET,ChinaDomain,DIRECT
+- RULE-SET,ChinaCompanyIp,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,🐟 漏网之鱼
