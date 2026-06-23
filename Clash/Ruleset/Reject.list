@@ -1,10 +1,5 @@
 # 拦截列表
 
 # 域名后缀匹配（包含所有子域名）
-DOMAIN-SUFFIX,app-analytics-services.com
-DOMAIN-SUFFIX,hotjar.com
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,sentry.io
 
 # 精确域名匹配（仅匹配指定域名）
