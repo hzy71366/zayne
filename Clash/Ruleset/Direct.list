@@ -3,19 +3,6 @@
 # Self-Hosted
 DOMAIN,hzy71366.dpdns.org
 
-# 局域网直连规则
-IP-CIDR,192.168.0.0/16,no-resolve
-IP-CIDR,10.0.0.0/8,no-resolve
-IP-CIDR,172.16.0.0/12,no-resolve
-IP-CIDR,127.0.0.0/8,no-resolve
-
 # 域名后缀匹配（包含所有子域名）
-DOMAIN-SUFFIX,pc528.net
-DOMAIN-SUFFIX,huoshanimg.com
-DOMAIN-SUFFIX,ninebot.com
-DOMAIN-SUFFIX,kelee.one
-DOMAIN-SUFFIX,liangxin.xyz
 
 # 精确域名匹配（仅匹配指定域名）
-DOMAIN,location.watch.okii.com
-DOMAIN,api.wcc.best
