@@ -1,0 +1,32 @@
+# --- 日历配置 ---
+calendars:
+  liuzhai:
+    name: "六斋日"
+    description: ""
+    enabled: true
+    emoji: "📿"
+    alarm:
+      enabled: true
+      days_before: 0
+      time: "06:00"
+  shizhai:
+    name: "十斋日"
+    description: ""
+    emoji: "🪷"
+    alarm:
+      enabled: true
+      days_before: 0
+      time: "06:00"
+  buddhist:
+    name: "佛菩萨圣诞"
+    description: ""
+    enabled: true
+    emoji: "🙏"
+    alarm:
+      enabled: true
+      days_before: 0
+      time: "06:00"
+
+# --- 年份范围 ---
+years:
+  ahead: 10
