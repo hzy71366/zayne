@@ -3,3 +3,6 @@
 # 域名后缀匹配（包含所有子域名）
 
 # 精确域名匹配（仅匹配指定域名）
+
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,npmjs.com
